@@ -7,12 +7,12 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [
     AppComponent
-  ],
+  ], // declear component
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent] // บอกว่าให้เริ่มที่ AppComponent
 })
 export class AppModule { }
